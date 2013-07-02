@@ -14,7 +14,7 @@
   <default revision="refs/heads/jellybean"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="32" />
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -335,4 +335,9 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  
+  <project path="device/samsung/u8500-common" name="diego-ch/android_device_samsung_u8500-common" revision="jellybean" remote="github" />
+  <project path="device/samsung/janice" name="diego-ch/android_device_samsung_janice" revision="jellybean" remote="github" />
+  <project path="kernel/samsung/u8500" name="diego-ch/android_kernel_samsung_u8500" revision="jb" remote="github" />
+  <project path="vendor/samsung/janice" name="diego-ch/proprietary_vendor_samsung" revision="jb" remote="github" />
 </manifest>

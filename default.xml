@@ -336,8 +336,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="jellybean" />
   <project path="device/samsung/u8500-common" name="diego-ch/android_device_samsung_u8500-common" revision="jellybean" remote="github" />
   <project path="device/samsung/janice" name="diego-ch/android_device_samsung_janice" revision="jellybean" remote="github" />
   <project path="kernel/samsung/u8500" name="diego-ch/android_kernel_samsung_u8500" revision="jb" remote="github" />
